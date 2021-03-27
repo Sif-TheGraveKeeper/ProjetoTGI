@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9642ebe234d24364a8e29d7a9ac6d17f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pixel AE
+  fontNames:
+  - Pixel AE
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4b211d0b35c33ac4281982fbfb8eb316, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
