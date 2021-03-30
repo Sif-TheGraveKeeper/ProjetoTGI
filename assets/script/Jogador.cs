@@ -9,7 +9,7 @@ public class Jogador : MonoBehaviour
 {
     //implementando força do pulo pelo unity 
     public float ForçaPulo;
-    public float speed;
+    public float speed= 5;
     public bool isGrounded;
     //contador de vida e pontos 
     public int Life;

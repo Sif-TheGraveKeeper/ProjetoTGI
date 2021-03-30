@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{37D4BCA7-3211-FDCE-AD61-AE482D076539}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -66,7 +67,7 @@
     <Compile Include="assets\script\GerenciaCene.cs" />
     <Compile Include="assets\script\GerenciadorDeSom.cs" />
     <Compile Include="assets\script\Jogador.cs" />
-    <Compile Include="assets\script\Player.cs" />
+    <Compile Include="assets\script\Playerr.cs" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/queij/Documents/ProjetoTGI/ProjetoTGI/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
