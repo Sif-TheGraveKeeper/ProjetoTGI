@@ -66,7 +66,7 @@
     <Compile Include="assets\script\GerenciaCene.cs" />
     <Compile Include="assets\script\GerenciadorDeSom.cs" />
     <Compile Include="assets\script\Jogador.cs" />
-    <None Include="assets\Grafic\Character\Player\nfo.txt" />
+    <Compile Include="assets\script\Player.cs" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/queij/Documents/ProjetoTGI/ProjetoTGI/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>

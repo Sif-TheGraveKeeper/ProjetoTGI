@@ -12,22 +12,22 @@ public class Jogador : MonoBehaviour
     public float speed;
     public bool isGrounded;
     //contador de vida e pontos 
-   // public int Life;
+    public int Life;
    // public int Coffe;
 
-   // public Text TextLife;
-  //  public Text TextCoffe;
+    public Text TextLife;
+   public Text TextCoffe;
 
     //variavel check
     public GameObject lastCheckpoint;
 
     //atirar
-    /*
+    
     private float fireRate = 0.5f;
     private float nextFire;
     public GameObject bulletPrefab;
     public Transform shotSpawner;
-    */
+    
 
     //ver
     private bool faceingRight;
@@ -103,7 +103,7 @@ public class Jogador : MonoBehaviour
             
 
         }if (Input.GetKeyUp(KeyCode.Z)) {
-            GetComponent<Animator>().SetBool("Shoot", false);
+            GetComponent<Animator>().SetBool("Shoot", false); 
         }
        
 
@@ -114,7 +114,7 @@ public class Jogador : MonoBehaviour
     
     }
     //Coletando Café 
-    /*
+    
     private void OnTriggerEnter2D(Collider2D collision2D)
     {
 
@@ -138,9 +138,9 @@ public class Jogador : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision2D)
     {if (collision2D.gameObject.CompareTag("Cafe")){}}
 
- */
+ 
     //colissão com inimigo 
-     /*
+     
     public void OnCollisionEnter2D(Collision2D collision2D){
         if (collision2D.gameObject.CompareTag("Inimigo")){
             GetComponent<Animator>().SetBool("Hurt", true);
@@ -163,7 +163,7 @@ public class Jogador : MonoBehaviour
             TextLife.text = Life.ToString();
             Application.LoadLevel(4);
         }
-        */
+        
 
         //colisão com plataforma e veiculo 
         if (collision2D.gameObject.CompareTag("Plataforma") || collision2D.gameObject.CompareTag("Veiculo"))
@@ -172,19 +172,19 @@ public class Jogador : MonoBehaviour
         }
         
         //colissão com item de vida 
-        /*
+    
         if (collision2D.gameObject.CompareTag("Vida"))
         {
             Life++; 
         }  
-        */
+        
     }
     public void OnCollisionExit2D(Collision2D collision2D){
         if (collision2D.gameObject.CompareTag("Plataforma") || collision2D.gameObject.CompareTag("Veiculo"))
         {
             isGrounded = false;
         }
-        /*
+        
     } public void QUEDA() {
 
         if (transform.position.y >= quedaMAX) {
@@ -193,7 +193,7 @@ public class Jogador : MonoBehaviour
             TextLife.text = Life.ToString();
            
         }
-        */
+        
 
 
     }
